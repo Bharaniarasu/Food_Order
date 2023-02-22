@@ -1,10 +1,14 @@
+import Header from "./layout/header";
+import Meals from "./meals/meals";
 import "./styles.css";
 
 export default function App() {
   return (
-    <div className="App">
-      <h1>Food Order</h1>
-      <h2>Start editing to see some magic happen!</h2>
-    </div>
+    <>
+      <Header />
+      <main>
+        <Meals />
+      </main>
+    </>
   );
 }
